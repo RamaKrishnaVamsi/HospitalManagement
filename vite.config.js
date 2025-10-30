@@ -9,3 +9,7 @@ export default defineConfig({
     open: true
   }
 })
+export default defineConfig({
+  base: "./",
+  plugins: [react()],
+});
